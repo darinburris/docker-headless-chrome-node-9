@@ -28,7 +28,7 @@ RUN curl -sSL https://dl.google.com/linux/linux_signing_key.pub | apt-key add - 
 
 # Install Chrome
 # https://www.ubuntuupdates.org/ppa/google_chrome?dist=stable
-ENV CHROME_VERSION=69.0.3497.100-1
+ENV CHROME_VERSION=71.0.3578.98-1
 
 RUN apt-get update && apt-get install -y \
 	google-chrome-stable=$CHROME_VERSION \
